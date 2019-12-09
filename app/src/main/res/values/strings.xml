@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">My Tour Guide</string>
+    <string name="parks_zoo">Parks, Nature and Zoos</string>
+    <string name="malls">Malls</string>
+    <string name="historical_centres">Historical Centres</string>
+    <string name="restaurants">Restaurants</string>
+    <string name="AboutPage">About</string>
+    <string name="ExplorePage">Explore</string>
+    <string name="others">Others</string>
+
+</resources>

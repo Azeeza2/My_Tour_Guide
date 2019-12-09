@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+<LinearLayout
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+        <ImageView
+            android:id="@+id/agodiGardensImageView"
+            app:srcCompat="@drawable/ibadan"
+            android:layout_width="match_parent"
+            android:layout_height="277dp" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAllCaps="true"
+            android:layout_margin="10dp"
+            android:textStyle="bold"
+            android:textSize="20sp"
+            android:gravity="center_horizontal"
+            android:textAppearance="@android:color/black"
+            android:text="B r i e f  H i s t o r y"
+            android:padding="20dp"/>
+
+
+        <TextView
+            android:id="@+id/descriptionTextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="fill"
+            android:layout_marginStart="15dp"
+            android:layout_marginLeft="15dp"
+            android:textColor="@android:color/black"
+            android:text="A city in the south-western part of Nigeria, Ibadan is the capital city of Oyo State and the third largest metropolitan area, by population, in Nigeria, after Lagos and Kano."/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="15dp"
+            android:layout_marginLeft="15dp"
+            android:textColor="@android:color/black"
+            android:text="Better known in Yoruba as Ẹ̀bá-Ọ̀dàn, meaning ‘the city at the edge of the savannah’, it is also the largest and most populous city in the country and the third in Africa after Cairo and Johannesburg." />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="15dp"
+            android:layout_marginLeft="15dp"
+            android:textColor="@android:color/black"
+            android:text="Ibadan is very old as it was the centre of administration of the old Western Region since the days of the British colonial rule."/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="15dp"
+            android:layout_marginLeft="15dp"
+            android:textColor="@android:color/black"
+            android:text="The city has stood the test of time and while it has developed into a metropolitan city today which is home to about 3.5 Million people, it shows more than just scars of history." />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="15dp"
+            android:layout_marginLeft="15dp"
+            android:textColor="@android:color/black"
+            android:text="It has got a strong combination of tradition and sophistication, and is still driven by its ancient heart. Its location and persistence has made the city a nexus of culture and My Tour Guide, Nigeria's’s largest tourist guide app shares all the details." />
+    </LinearLayout>
+</ScrollView>

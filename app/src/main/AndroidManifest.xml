@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.mytourguide">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".AboutPage"
+            android:label="@string/AboutPage"
+            android:parentActivityName=".MainActivity"/>
+        <activity
+            android:name=".ExplorePage"
+            android:label="@string/ExplorePage"
+            android:parentActivityName=".MainActivity"/>
+        <activity
+            android:name=".parks_zoo"
+            android:label="@string/parks_zoo"
+            android:parentActivityName=".ExplorePage" />
+        <activity
+            android:name=".malls"
+            android:label="@string/malls"
+            android:parentActivityName=".ExplorePage"/>
+        <activity
+            android:name=".historical_centres"
+            android:label="@string/historical_centres"
+            android:parentActivityName=".ExplorePage"/>
+        <activity
+            android:name=".restaurants"
+            android:label="@string/restaurants"
+            android:parentActivityName=".ExplorePage"/>
+        <activity
+            android:name=".others"
+            android:label="@string/others"
+            android:parentActivityName=".ExplorePage"/>
+
+    </application>
+
+</manifest>
